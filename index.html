@@ -4,171 +4,253 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The Bug Beauty Collective</title>
+
+  <title>MK Waxing & Skin Care Spa</title>
   <meta name="description"
-    content="Waxing and nail services under the watchful authority of Leda Lou, also known as The Bug." />
+    content="MK Waxing & Skin Care Spa offers waxing, facials, and skin care services by appointment in Chicago." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap"
+    rel="stylesheet" />
+
   <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
+
+  <!-- ░░ HEADER ░░ -->
   <header class="site-header">
     <nav class="nav">
       <a href="#" class="logo">
-        <span class="logo-star">★</span>
-        The Bug Beauty Collective
+        <span class="logo-mk">MK</span>
+        <span class="logo-full">Waxing & Skin Care Spa</span>
       </a>
 
       <div class="nav-links">
-        <a href="#services">Labor</a>
-        <a href="#pricing">Rations</a>
-        <a href="#contact">Report</a>
+        <a href="#services">Services</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#hours">Hours</a>
+        <a href="#contact">Contact</a>
       </div>
+
+      <a href="tel:+17733209109" class="nav-cta">Book Now</a>
     </nav>
   </header>
 
+
   <main>
+
+    <!-- ░░ HERO ░░ -->
     <section class="hero">
-      <div class="poster-card logo-card">
-        <img src="images/the-bug-logo.png" alt="The Bug Beauty Collective logo featuring Leda Lou the French bulldog"
-          class="bug-logo" />
-      </div>
-
       <div class="hero-content">
-        <p class="eyebrow">Official Beauty Production Office · Est. by The Bug</p>
+        <p class="eyebrow">
+          <span></span>
+          Waxing · Facials · Skin Care
+          <span></span>
+        </p>
 
-        <h1>Waxing and nails for the loyal members of the collective.</h1>
+        <h1>
+          Your skin,<br />
+          <em>cared for.</em>
+        </h1>
 
         <p class="hero-text">
-          Leda Lou, known throughout the territory as “The Bug,” is a black French
-          bulldog with a white chest patch, supreme executive authority, and a side
-          passion for orderly beauty services.
+          Professional waxing and skin care services by appointment, inside a welcoming
+          shared studio in Chicago's West Town neighborhood.
         </p>
 
         <div class="hero-actions">
-          <a href="tel:+18155551234" class="button primary">Request Appointment</a>
-          <a href="#pricing" class="button secondary">View Price Decrees</a>
+          <a href="tel:+17733209109" class="button primary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path
+                d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.16 1.22 2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.18 6.18l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
+            </svg>
+            Call to Book
+          </a>
+          <a href="#pricing" class="button secondary">View Pricing</a>
         </div>
+      </div>
+
+      <div class="hero-image">
+        <img src="images/hero.jpg" alt="Clean esthetician studio treatment room" />
       </div>
     </section>
 
-    <section class="banner">
-      <p>Beauty is labor. Smoothness is unity. The Bug provides.</p>
-    </section>
 
-    <section id="services" class="section">
+    <!-- ░░ SERVICES ░░ -->
+    <section id="services" class="section services-section">
       <div class="section-heading">
-        <p class="eyebrow">Department of Services</p>
-        <h2>Approved beauty programs</h2>
+        <p class="eyebrow"><span></span>Services<span></span></p>
+        <h2>What I offer</h2>
+        <p class="section-sub">Everything your skin needs, in one welcoming space.</p>
       </div>
 
       <div class="cards">
         <article class="card">
-          <div class="card-number">I</div>
+          <div class="card-icon" aria-hidden="true">✦</div>
           <h3>Waxing</h3>
-          <p>
-            Efficient removal of unwanted elements. Performed with discipline,
-            precision, and loyalty to the program.
-          </p>
+          <p>Professional face and body waxing in a clean, comfortable studio setting. Quick, precise, and thorough.</p>
+        </article>
+
+        <article class="card card-featured">
+          <div class="card-icon" aria-hidden="true">✦</div>
+          <h3>Skin Care</h3>
+          <p>Facial treatments designed to refresh, deeply cleanse, and support healthy-looking, glowing skin.</p>
         </article>
 
         <article class="card">
-          <div class="card-number">II</div>
-          <h3>Nails</h3>
-          <p>
-            Manicures, gel polish, and detail work suitable for any citizen appearing
-            before The Bug.
-          </p>
-        </article>
-
-        <article class="card">
-          <div class="card-number">III</div>
-          <h3>Consultation</h3>
-          <p>
-            Unsure what you require? Submit your case. The collective will process
-            your request.
-          </p>
+          <div class="card-icon" aria-hidden="true">✦</div>
+          <h3>Tinting & Treatments</h3>
+          <p>Eyebrow tinting, eyelash tinting, and body treatments — all available by appointment.</p>
         </article>
       </div>
     </section>
 
-    <section id="pricing" class="section section-alt">
+
+    <!-- ░░ PRICING ░░ -->
+    <section id="pricing" class="section-alt">
+      <div class="section section-pricing-inner">
+
+        <div class="section-heading">
+          <p class="eyebrow"><span></span>Pricing<span></span></p>
+          <h2>Service menu</h2>
+        </div>
+
+        <div class="price-groups">
+
+          <div class="price-group">
+            <h3>Waxing</h3>
+            <div class="price-list">
+              <div class="price-row"><span>Eyebrow Wax</span><strong>$15</strong></div>
+              <div class="price-row"><span>Lip Wax</span><strong>$10</strong></div>
+              <div class="price-row"><span>Chin Wax</span><strong>$10</strong></div>
+              <div class="price-row"><span>Side Face Wax</span><strong>$15</strong></div>
+              <div class="price-row"><span>Underarm Wax</span><strong>$18</strong></div>
+              <div class="price-row"><span>Half Arm Wax</span><strong>$25</strong></div>
+              <div class="price-row"><span>Full Arm Wax</span><strong>$30</strong></div>
+              <div class="price-row"><span>Bikini Wax</span><strong>$25</strong></div>
+              <div class="price-row"><span>French Bikini Wax</span><strong>$35</strong></div>
+              <div class="price-row"><span>Brazilian Wax</span><strong>$55</strong></div>
+              <div class="price-row"><span>Half Leg Wax</span><strong>$40</strong></div>
+              <div class="price-row"><span>Full Leg Wax</span><strong>$55</strong></div>
+              <div class="price-row"><span>Full Back Wax</span><strong>$50</strong></div>
+              <div class="price-row"><span>Chest Wax</span><strong>$40</strong></div>
+            </div>
+          </div>
+
+          <div class="price-group">
+            <h3>Skin Care & Treatments</h3>
+            <div class="price-list">
+              <div class="price-row"><span>Cleansing Facial</span><strong>$70</strong></div>
+              <div class="price-row"><span>Corrective Facial</span><strong>$70</strong></div>
+              <div class="price-row"><span>Deep Cleaning Facial</span><strong>$70</strong></div>
+              <div class="price-row"><span>Mini Facial</span><strong>$40</strong></div>
+              <div class="price-row"><span>Full Body Facial</span><strong>$90</strong></div>
+              <div class="price-row"><span>Eyebrow Tinting</span><strong>$15</strong></div>
+              <div class="price-row"><span>Eyelash Tinting</span><strong>$15</strong></div>
+              <div class="price-row"><span>Cellulite Treatment</span><strong>$50</strong></div>
+            </div>
+          </div>
+
+        </div>
+
+        <p class="pricing-note">
+          Prices are subject to change. Please call to confirm current pricing and availability.
+        </p>
+
+      </div>
+    </section>
+
+
+    <!-- ░░ HOURS ░░ -->
+    <section id="hours" class="section hours-section">
       <div class="section-heading">
-        <p class="eyebrow">Price Decrees</p>
-        <h2>Official service rations</h2>
+        <p class="eyebrow"><span></span>Hours<span></span></p>
+        <h2>Open hours</h2>
       </div>
 
-      <div class="price-list">
-        <div class="price-row">
-          <span>Brow Wax</span>
-          <strong>$18</strong>
+      <div class="hours-card">
+        <div class="hours-row">
+          <span>Tuesday</span>
+          <strong>10 AM – 6 PM</strong>
         </div>
-
-        <div class="price-row">
-          <span>Lip Wax</span>
-          <strong>$12</strong>
+        <div class="hours-row">
+          <span>Wednesday – Friday</span>
+          <strong>10 AM – 7 PM</strong>
         </div>
-
-        <div class="price-row">
-          <span>Underarm Wax</span>
-          <strong>$25</strong>
+        <div class="hours-row">
+          <span>Saturday</span>
+          <strong>9 AM – 6 PM</strong>
         </div>
-
-        <div class="price-row">
-          <span>Basic Manicure</span>
-          <strong>$30</strong>
+        <div class="hours-row closed">
+          <span>Sunday – Monday</span>
+          <strong>Closed</strong>
         </div>
-
-        <div class="price-row">
-          <span>Gel Manicure</span>
-          <strong>$42</strong>
-        </div>
-
-        <div class="price-row">
-          <span>Nail Art Add-On</span>
-          <strong>Starting at $8</strong>
-        </div>
-      </div>
-
-      <p class="pricing-note">
-        Mock pricing for now. Final prices are subject to official revision.
-      </p>
-    </section>
-
-    <section class="section decree-section">
-      <div class="decree-card">
-        <p class="eyebrow">Public Notice</p>
-        <h2>The studio is private. The standards are not.</h2>
-        <p>
-          Services are performed by appointment inside a rented studio suite.
-          The atmosphere is clean, calm, orderly, and monitored in spirit by
-          one compact authoritarian French bulldog.
-        </p>
       </div>
     </section>
 
-    <section id="contact" class="section contact-section">
-      <div class="contact-card">
-        <p class="eyebrow">Appointment Office</p>
-        <h2>Submit booking request</h2>
 
-        <p>
-          Exact studio location is shared after booking. Citizens are encouraged
-          to arrive on time and with appropriate respect for the process.
-        </p>
+    <!-- ░░ CONTACT ░░ -->
+    <section id="contact" class="section-alt contact-section">
+      <div class="section">
+        <div class="contact-inner">
+          <div class="contact-text">
+            <p class="eyebrow"><span></span>Book an appointment<span></span></p>
+            <h2>Come visit us in Chicago</h2>
+            <p>Appointments are available at a shared studio space in Chicago's West Town neighborhood. Call or text to
+              schedule your visit.</p>
+          </div>
 
-        <div class="contact-details">
-          <p><strong>Phone:</strong> <a href="tel:+18155551234">(815) 555-1234</a></p>
-          <p><strong>Email:</strong> <a href="mailto:hello@bugcollective.example">hello@bugcollective.example</a></p>
-          <p><strong>Hours:</strong> Tuesday–Saturday, 10 AM–6 PM</p>
-          <p><strong>Territory:</strong> Rockford, IL</p>
+          <div class="contact-card">
+            <div class="contact-details">
+              <div class="contact-item">
+                <div class="contact-label">Phone</div>
+                <a href="tel:+17733209109">(773) 320-9109</a>
+              </div>
+              <div class="contact-item">
+                <div class="contact-label">Location</div>
+                <a href="https://www.google.com/maps/search/?api=1&query=2223%20W%20Chicago%20Ave%2C%20Chicago%2C%20IL"
+                  target="_blank" rel="noopener noreferrer">
+                  2223 W Chicago Ave<br />Chicago, IL
+                </a>
+              </div>
+              <div class="contact-item">
+                <div class="contact-label">Hours</div>
+                <span>Tuesday – Saturday<br />By appointment</span>
+              </div>
+            </div>
+
+            <div class="contact-actions">
+              <a href="tel:+17733209109" class="button primary">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path
+                    d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.16 1.22 2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.18 6.18l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
+                </svg>
+                Call to Book
+              </a>
+              <a href="https://www.google.com/maps/search/?api=1&query=2223%20W%20Chicago%20Ave%2C%20Chicago%2C%20IL"
+                target="_blank" rel="noopener noreferrer" class="button secondary">
+                Get Directions
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
+
   </main>
 
+
+  <!-- ░░ FOOTER ░░ -->
   <footer class="site-footer">
-    <p>© 2026 The Bug Beauty Collective. All standards enforced by Leda Lou.</p>
+    <p class="footer-logo">MK Waxing & Skin Care Spa</p>
+    <p class="footer-copy">© 2026 MK Waxing & Skin Care Spa · Chicago, IL · All rights reserved.</p>
   </footer>
+
 </body>
 
 </html>
