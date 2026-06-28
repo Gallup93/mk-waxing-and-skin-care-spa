@@ -4,240 +4,195 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <title>MK Waxing & Skin Care Spa</title>
-  <meta name="description"
-    content="MK Waxing & Skin Care Spa offers waxing, facials, and skin care services by appointment in Chicago." />
+  <title>MK Waxing &amp; Skin Care Spa — Chicago</title>
+  <meta name="description" content="Professional waxing, facials, and skin care by Mira Madej in Chicago's West Town neighborhood. By appointment Tuesday through Saturday. (773) 320-9109." />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap"
-    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
 
-  <!-- ░░ HEADER ░░ -->
+  <!-- HEADER -->
   <header class="site-header">
-    <nav class="nav">
+    <nav class="nav" aria-label="Main navigation">
       <a href="#" class="logo">
         <span class="logo-mk">MK</span>
-        <span class="logo-full">Waxing & Skin Care Spa</span>
+        <span class="logo-name">Waxing &amp; Skin Care Spa</span>
       </a>
-
-      <div class="nav-links">
-        <a href="#services">Services</a>
-        <a href="#pricing">Pricing</a>
-        <a href="#hours">Hours</a>
-        <a href="#contact">Contact</a>
-      </div>
-
-      <a href="tel:+17733209109" class="nav-cta">Book Now</a>
+      <ul class="nav-links" role="list">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#hours">Hours</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="tel:+17733209109" class="btn btn-nav">Book Now</a>
     </nav>
   </header>
 
-
   <main>
 
-    <!-- ░░ HERO ░░ -->
+    <!-- HERO -->
     <section class="hero">
-      <div class="hero-content">
-        <p class="eyebrow">
-          <span></span>
-          Waxing · Facials · Skin Care
-          <span></span>
-        </p>
-
-        <h1>
-          Your skin,<br />
-          <em>cared for.</em>
-        </h1>
-
-        <p class="hero-text">
-          Professional waxing and skin care services by appointment, inside a welcoming
-          shared studio in Chicago's West Town neighborhood.
-        </p>
-
-        <div class="hero-actions">
-          <a href="tel:+17733209109" class="button primary">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-              <path
-                d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.16 1.22 2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.18 6.18l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
-            </svg>
-            Call to Book
-          </a>
-          <a href="#pricing" class="button secondary">View Pricing</a>
+      <div class="hero-inner">
+        <div class="hero-content">
+          <p class="eyebrow">Chicago · West Town</p>
+          <h1>Waxing &amp; Skin Care <em>by Mira</em></h1>
+          <p class="hero-body">Professional esthetics services by appointment, Tuesday through Saturday.</p>
+          <div class="hero-actions">
+            <a href="tel:+17733209109" class="btn btn-cream">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.16 1.22 2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.18 6.18l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
+              </svg>
+              Call to Book
+            </a>
+            <a href="#pricing" class="btn btn-outline-light">Services &amp; Pricing</a>
+          </div>
+          <p class="hero-tel">(773) 320-9109</p>
         </div>
-      </div>
-
-      <div class="hero-image">
-        <img src="images/hero.jpg" alt="Clean esthetician studio treatment room" />
+        <div class="hero-media">
+          <img src="images/hero.jpg" alt="Esthetics studio treatment room" />
+        </div>
       </div>
     </section>
 
 
-    <!-- ░░ SERVICES ░░ -->
-    <section id="services" class="section services-section">
-      <div class="section-heading">
-        <p class="eyebrow"><span></span>Services<span></span></p>
-        <h2>What I offer</h2>
+    <!-- SERVICES -->
+    <section id="services" class="section services">
+      <div class="section-head">
+        <p class="eyebrow eyebrow--mid">What I offer</p>
+        <h2>Services</h2>
         <p class="section-sub">Everything your skin needs, in one welcoming space.</p>
       </div>
-
-      <div class="cards">
+      <div class="service-cards">
         <article class="card">
-          <div class="card-icon" aria-hidden="true">✦</div>
           <h3>Waxing</h3>
-          <p>Professional face and body waxing in a clean, comfortable studio setting. Quick, precise, and thorough.</p>
+          <p>Face and body waxing with professional-grade products — quick, precise results for every area, from eyebrows to full leg.</p>
         </article>
-
-        <article class="card card-featured">
-          <div class="card-icon" aria-hidden="true">✦</div>
+        <article class="card card--featured">
           <h3>Skin Care</h3>
-          <p>Facial treatments designed to refresh, deeply cleanse, and support healthy-looking, glowing skin.</p>
-        </article>
-
-        <article class="card">
-          <div class="card-icon" aria-hidden="true">✦</div>
-          <h3>Tinting & Treatments</h3>
-          <p>Eyebrow tinting, eyelash tinting, and body treatments — all available by appointment.</p>
+          <p>Facial treatments tailored to your skin and needs. Choose from a quick 30-minute mini facial or a full hour of deep cleansing, corrective, or clarifying care — each treatment designed to leave your skin refreshed and healthy.</p>
         </article>
       </div>
     </section>
 
 
-    <!-- ░░ PRICING ░░ -->
-    <section id="pricing" class="section-alt">
-      <div class="section section-pricing-inner">
-
-        <div class="section-heading">
-          <p class="eyebrow"><span></span>Pricing<span></span></p>
-          <h2>Service menu</h2>
+    <!-- PRICING -->
+    <section id="pricing" class="pricing">
+      <div class="pricing-inner">
+        <div class="section-head">
+          <p class="eyebrow eyebrow--mid">Service Menu</p>
+          <h2>Pricing</h2>
         </div>
+        <div class="price-grid">
 
-        <div class="price-groups">
-
-          <div class="price-group">
-            <h3>Waxing</h3>
-            <div class="price-list">
-              <div class="price-row"><span>Eyebrow Wax</span><strong>$15</strong></div>
-              <div class="price-row"><span>Lip Wax</span><strong>$10</strong></div>
-              <div class="price-row"><span>Chin Wax</span><strong>$10</strong></div>
-              <div class="price-row"><span>Side Face Wax</span><strong>$15</strong></div>
-              <div class="price-row"><span>Underarm Wax</span><strong>$18</strong></div>
-              <div class="price-row"><span>Half Arm Wax</span><strong>$25</strong></div>
-              <div class="price-row"><span>Full Arm Wax</span><strong>$30</strong></div>
-              <div class="price-row"><span>Bikini Wax</span><strong>$25</strong></div>
-              <div class="price-row"><span>French Bikini Wax</span><strong>$35</strong></div>
-              <div class="price-row"><span>Brazilian Wax</span><strong>$55</strong></div>
-              <div class="price-row"><span>Half Leg Wax</span><strong>$40</strong></div>
-              <div class="price-row"><span>Full Leg Wax</span><strong>$55</strong></div>
-              <div class="price-row"><span>Full Back Wax</span><strong>$50</strong></div>
-              <div class="price-row"><span>Chest Wax</span><strong>$40</strong></div>
-            </div>
+          <div class="price-col">
+            <div class="price-col-head">Waxing &amp; Tinting</div>
+            <ul class="price-list" role="list">
+              <li><span>Eyebrow Wax</span><b>$18</b></li>
+              <li><span>Eyebrow Lamination (wax + tint included)</span><b>$85</b></li>
+              <li><span>Lip Wax</span><b>$10</b></li>
+              <li><span>Nose Wax</span><b>$15</b></li>
+              <li><span>Chin Wax</span><b>$15</b></li>
+              <li><span>Underarm Wax</span><b>$20</b></li>
+              <li><span>Half Arm Wax</span><b>$30</b></li>
+              <li><span>Full Arm Wax</span><b>$45</b></li>
+              <li><span>French Bikini Wax</span><b>$35</b></li>
+              <li><span>Brazilian Wax</span><b>$55</b></li>
+              <li><span>Half Leg Wax</span><b>$40</b></li>
+              <li><span>Full Leg Wax</span><b>$75</b></li>
+              <li><span>Full Back Wax</span><b>$60</b></li>
+              <li><span>Chest Wax</span><b>$50</b></li>
+              <li><span>Eyebrow Tinting</span><b>$15</b></li>
+              <li><span>Eyelash Tinting</span><b>$15</b></li>
+            </ul>
           </div>
 
-          <div class="price-group">
-            <h3>Skin Care & Treatments</h3>
-            <div class="price-list">
-              <div class="price-row"><span>Cleansing Facial</span><strong>$70</strong></div>
-              <div class="price-row"><span>Corrective Facial</span><strong>$70</strong></div>
-              <div class="price-row"><span>Deep Cleaning Facial</span><strong>$70</strong></div>
-              <div class="price-row"><span>Mini Facial</span><strong>$40</strong></div>
-              <div class="price-row"><span>Full Body Facial</span><strong>$90</strong></div>
-              <div class="price-row"><span>Eyebrow Tinting</span><strong>$15</strong></div>
-              <div class="price-row"><span>Eyelash Tinting</span><strong>$15</strong></div>
-              <div class="price-row"><span>Cellulite Treatment</span><strong>$50</strong></div>
-            </div>
+          <div class="price-col">
+            <div class="price-col-head">Skin Care</div>
+            <ul class="price-list" role="list">
+              <li><span>Mini Facial <em class="dur">30 min</em></span><b>$50</b></li>
+              <li><span>Cleansing Facial <em class="dur">1 hr</em></span><b>$85</b></li>
+              <li><span>Corrective Facial <em class="dur">1 hr</em></span><b>$85</b></li>
+              <li><span>Deep Cleaning Facial <em class="dur">1 hr</em></span><b>$85</b></li>
+            </ul>
+            <p class="price-note">Prices subject to change. Call to confirm current pricing and availability.</p>
           </div>
 
         </div>
 
-        <p class="pricing-note">
-          Prices are subject to change. Please call to confirm current pricing and availability.
-        </p>
+        <div class="price-extra">
+          <span class="price-extra-name">Ear Candling</span>
+          <span class="price-extra-price">$65</span>
+        </div>
 
       </div>
     </section>
 
 
-    <!-- ░░ HOURS ░░ -->
-    <section id="hours" class="section hours-section">
-      <div class="section-heading">
-        <p class="eyebrow"><span></span>Hours<span></span></p>
-        <h2>Open hours</h2>
+    <!-- HOURS & LOCATION -->
+    <section id="hours" class="section hours">
+      <div class="section-head">
+        <p class="eyebrow eyebrow--mid">Availability</p>
+        <h2>Hours &amp; Location</h2>
       </div>
+      <div class="info-grid">
 
-      <div class="hours-card">
-        <div class="hours-row">
-          <span>Tuesday</span>
-          <strong>10 AM – 6 PM</strong>
+        <div class="info-card">
+          <h3>Open Hours</h3>
+          <p class="appt-label">By appointment only</p>
+          <dl class="hours-list">
+            <div class="hours-row">
+              <dt>Tuesday – Friday</dt>
+              <dd>10 AM – 6 PM</dd>
+            </div>
+            <div class="hours-row">
+              <dt>Saturday</dt>
+              <dd>9 AM – 5 PM</dd>
+            </div>
+            <div class="hours-row hours-row--closed">
+              <dt>Sunday – Monday</dt>
+              <dd>Closed</dd>
+            </div>
+          </dl>
         </div>
-        <div class="hours-row">
-          <span>Wednesday – Friday</span>
-          <strong>10 AM – 7 PM</strong>
+
+        <div class="info-card">
+          <h3>Location</h3>
+          <address class="location-address">
+            2223 W Chicago Ave<br />
+            Chicago, IL 60622
+          </address>
+          <p class="location-sub">West Town neighborhood &middot; shared studio space</p>
+          <a href="https://www.google.com/maps/search/?api=1&query=2223+W+Chicago+Ave,+Chicago,+IL+60622" target="_blank" rel="noopener noreferrer" class="btn btn-green-outline">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+            Get Directions
+          </a>
         </div>
-        <div class="hours-row">
-          <span>Saturday</span>
-          <strong>9 AM – 6 PM</strong>
-        </div>
-        <div class="hours-row closed">
-          <span>Sunday – Monday</span>
-          <strong>Closed</strong>
-        </div>
+
       </div>
     </section>
 
 
-    <!-- ░░ CONTACT ░░ -->
-    <section id="contact" class="section-alt contact-section">
-      <div class="section">
-        <div class="contact-inner">
-          <div class="contact-text">
-            <p class="eyebrow"><span></span>Book an appointment<span></span></p>
-            <h2>Come visit us in Chicago</h2>
-            <p>Appointments are available at a shared studio space in Chicago's West Town neighborhood. Call or text to
-              schedule your visit.</p>
-          </div>
-
-          <div class="contact-card">
-            <div class="contact-details">
-              <div class="contact-item">
-                <div class="contact-label">Phone</div>
-                <a href="tel:+17733209109">(773) 320-9109</a>
-              </div>
-              <div class="contact-item">
-                <div class="contact-label">Location</div>
-                <a href="https://www.google.com/maps/search/?api=1&query=2223%20W%20Chicago%20Ave%2C%20Chicago%2C%20IL"
-                  target="_blank" rel="noopener noreferrer">
-                  2223 W Chicago Ave<br />Chicago, IL
-                </a>
-              </div>
-              <div class="contact-item">
-                <div class="contact-label">Hours</div>
-                <span>Tuesday – Saturday<br />By appointment</span>
-              </div>
-            </div>
-
-            <div class="contact-actions">
-              <a href="tel:+17733209109" class="button primary">
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                  <path
-                    d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.16 1.22 2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.18 6.18l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
-                </svg>
-                Call to Book
-              </a>
-              <a href="https://www.google.com/maps/search/?api=1&query=2223%20W%20Chicago%20Ave%2C%20Chicago%2C%20IL"
-                target="_blank" rel="noopener noreferrer" class="button secondary">
-                Get Directions
-              </a>
-            </div>
-          </div>
+    <!-- CONTACT CTA -->
+    <section id="contact" class="contact-cta">
+      <div class="contact-cta-inner">
+        <p class="eyebrow">Book an appointment</p>
+        <h2>Call or text to schedule</h2>
+        <a href="tel:+17733209109" class="cta-number">(773) 320-9109</a>
+        <div class="cta-actions">
+          <a href="tel:+17733209109" class="btn btn-cream">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.16 1.22 2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.18 6.18l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
+            </svg>
+            Call Now
+          </a>
         </div>
       </div>
     </section>
@@ -245,10 +200,11 @@
   </main>
 
 
-  <!-- ░░ FOOTER ░░ -->
+  <!-- FOOTER -->
   <footer class="site-footer">
-    <p class="footer-logo">MK Waxing & Skin Care Spa</p>
-    <p class="footer-copy">© 2026 MK Waxing & Skin Care Spa · Chicago, IL · All rights reserved.</p>
+    <p class="footer-brand">MK Waxing &amp; Skin Care Spa</p>
+    <p class="footer-loc">2223 W Chicago Ave &middot; Chicago, IL 60622</p>
+    <p class="footer-copy">&copy; 2026 MK Waxing &amp; Skin Care Spa &middot; All rights reserved</p>
   </footer>
 
 </body>
