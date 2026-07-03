@@ -1,4 +1,5 @@
 .git
+.wrangler
 .DS_Store
 .assetsignore
 wrangler.jsonc
