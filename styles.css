@@ -193,57 +193,6 @@ h1 em, h2 em {
   color: var(--text-on-dark);
 }
 
-/* Language switch */
-.lang-switch {
-  display: flex;
-  align-items: center;
-  gap: 2px;
-  flex-shrink: 0;
-  padding: 3px;
-  border: 1px solid rgba(143, 173, 152, 0.35);
-  border-radius: 999px;
-}
-
-.lang-opt {
-  display: inline-flex;
-  align-items: center;
-  gap: 7px;
-  background: transparent;
-  border: none;
-  border-radius: 999px;
-  padding: 6px 13px;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 0.76rem;
-  font-weight: 500;
-  letter-spacing: 0.08em;
-  color: var(--text-muted-dark);
-  cursor: pointer;
-  transition: background 0.2s var(--ease), color 0.2s var(--ease);
-  white-space: nowrap;
-}
-
-.lang-opt:hover {
-  color: var(--text-on-dark);
-}
-
-.lang-opt.is-active {
-  background: rgba(233, 241, 233, 0.14);
-  color: var(--text-on-dark);
-}
-
-.lang-opt .flag {
-  display: block;
-  border-radius: 2.5px;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25);
-  opacity: 0.75;
-  transition: opacity 0.2s var(--ease);
-}
-
-.lang-opt.is-active .flag,
-.lang-opt:hover .flag {
-  opacity: 1;
-}
-
 /* ── SITE HEADER ─────────────────────────────────────── */
 .site-header {
   position: sticky;
@@ -393,6 +342,11 @@ h1 em, h2 em {
   font-size: 0.82rem;
   color: var(--sage);
   letter-spacing: 0.12em;
+  transition: color 0.2s var(--ease);
+}
+
+.hero-tel:hover {
+  color: var(--text-on-dark);
 }
 
 .hero-tel::before {
@@ -756,6 +710,8 @@ h1 em, h2 em {
 .cta-actions {
   display: flex;
   justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
 }
 
 /* ── FOOTER ──────────────────────────────────────────── */
